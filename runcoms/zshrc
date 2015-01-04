@@ -11,3 +11,10 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+
+# nodebrew
+export PATH=$HOME/.nodebrew/current/bin:$PATH
+
+# rbenv
+eval "$(rbenv init -)"
+
