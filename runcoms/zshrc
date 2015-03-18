@@ -12,6 +12,7 @@ fi
 
 # Customize to your needs...
 export EDITOR=vim
+export VISUAL=vim
 
 # nodebrew
 export PATH=$HOME/.nodebrew/current/bin:$PATH
