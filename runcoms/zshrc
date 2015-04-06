@@ -20,3 +20,6 @@ export PATH=$HOME/.nodebrew/current/bin:$PATH
 # rbenv
 eval "$(rbenv init -)"
 
+# alias
+alias bup='brew update && brew upgrade && brew cask update'
+
