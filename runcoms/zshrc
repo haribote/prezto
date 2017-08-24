@@ -19,12 +19,13 @@ fi
 export EDITOR=vim
 export VISUAL=vim
 
-# nodebrew
-export PATH=$HOME/.nodebrew/current/bin:$PATH
+# ndenv
+export PATH="$HOME/.ndenv/bin:$PATH"
+eval "$(ndenv init -)"
 
 # rbenv
 eval "$(rbenv init -)"
 
 # alias
-alias bup='brew update && brew upgrade && brew cask update'
+alias bup='brew update && brew upgrade'
 
